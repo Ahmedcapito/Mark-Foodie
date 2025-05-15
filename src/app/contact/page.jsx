@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
+import Lottie from 'lottie-react';
 import True from "@/animations/true";
 import Error from "@/animations/error";
 
