@@ -111,7 +111,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="isolate px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate  px-6 py-24 sm:py-32 lg:px-8">
       {/* Background Effect */}
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -133,7 +133,7 @@ const Contact = () => {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="mx-auto max-w-2xl text-center"
       >
-        <h2 className="text-6xl tracking-tight text-gray-100 font-bold sm:text-5xl">
+        <h2 className="text-5xl te tracking-tight text-gray-100 font-bold sm:text-5xl">
           Contact Us
         </h2>
         <hr className="w-40 mx-auto mt-5 mb-5 text-amber-600" />
