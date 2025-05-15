@@ -1,4 +1,4 @@
-
+'use client'
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Dinner, Breakfast, Iunch } from "@/data/data"; 
