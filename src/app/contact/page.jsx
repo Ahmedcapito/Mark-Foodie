@@ -1,5 +1,4 @@
 'use client';
-import dynamic from 'next/dynamic';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
@@ -9,7 +8,6 @@ import Error from "@/animations/error";
 const Contact = () => {
   const form = useRef();
   const [messageStatus, setMessageStatus] = useState(null);
-  const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
   // Errors & Success states
   const [errors, setErrors] = useState({
     first_name: '',
