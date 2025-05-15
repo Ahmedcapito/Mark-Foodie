@@ -17,7 +17,7 @@ const Menu = () => {
           </div>
         </Link>
 
-        <Link href="/lunch" aria-label="Lunch menu">
+        <Link href="/iunch" aria-label="Lunch menu">
           <div className="cursor-pointer rounded-xl bg-gradient-to-tr from-fuchsia-300 via-fuchsia-400 to-fuchsia-500 p-12 shadow-lg hover:scale-105 hover:shadow-xl transform transition duration-300">
             <h3 className="text-4xl font-bold text-fuchsia-950 mb-4">Lunch</h3>
             <p className="text-lg font-semibold text-fuchsia-950">
