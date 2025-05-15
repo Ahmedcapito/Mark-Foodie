@@ -47,7 +47,7 @@ const Search = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-6 mt-16 px-2 sm:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-6 mt-16 sm:px-0">
         {results.length > 0 ? (
           results.map((item, index) => (
             <motion.div
