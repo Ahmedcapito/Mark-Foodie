@@ -112,7 +112,7 @@ const Navbar = () => {
                     Menu
                   </Link>
                   <Link
-                    href="contact"
+                    href="/contact"
                     className="block px-3 py-2 rounded-lg text-base font-bold text-amber-600 hover:bg-fuchsia-950 transition"
                   >
                     Contact

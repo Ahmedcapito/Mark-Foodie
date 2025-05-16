@@ -11,9 +11,9 @@ const Footer = () => {
         </div>
         
         <nav className="flex gap-8 text-fuchsia-950 hover:text-amber-600 transition-colors">
-          <Link href="#home" className="hover:text-amber-600">Home</Link>
-          <Link href="#about" className="hover:text-amber-600">Menu</Link>
-          <Link href="#services" className="hover:text-amber-600">Contact</Link>
+          <Link href="/" className="hover:text-amber-600">Home</Link>
+          <Link href="/menu" className="hover:text-amber-600">Menu</Link>
+          <Link href="/contact" className="hover:text-amber-600">Contact</Link>
         </nav>
 
         <div className="text-sm text-fuchsia-950 select-none">
